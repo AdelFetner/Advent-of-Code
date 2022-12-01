@@ -11,5 +11,5 @@ I aim to get better at JavaScript and at programming logic, most of my advents w
 
 # About Me
 
-I am Adel Fetner! A Front End developer, I'm currently interested in React and styled-components💅🏼, also learning NodeJS on the side. 
+I am Adel Fetner! A Front End developer, I'm currently interested in React and styled-components💅🏼, also learning NodeJS on the side.  
 If you find by any chance this repository, and wish to meet new folx in IT, I'm always open to connect and network with new people in IT or design, so feel free to hit me up! My linktree with all my social media links can be found at my bio, or [here](https://linktr.ee/AdelFetner)!
