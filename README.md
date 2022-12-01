@@ -5,9 +5,9 @@ Repository with all Advent of Code's advents. '22 edition.
 
 Advent of code is a yearly advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other.
 
-## My objective with '22 edition Advent of Code
+## My objective with '22 edition's Advent of Code
 
-I aim to get better at JavaScript and at programming logic, most of my advents will be done in JS. This is a repository to archive all my progress for future remembering.
+I aim to get better at JavaScript and at my programming logic skill, most of my advents will be done in JS. This is a repository to archive all my progress for future remembering.
 
 # About Me
 
