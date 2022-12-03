@@ -6,7 +6,6 @@ const elementArr = [...element]
 
 // loop thru array and split the text of the first index
 const splittedArr = elementArr[0].innerText.split("\n")
-// console.log(splittedArr)
 
 // get first letter and last letter of each element as an object for opponent and player choices
 const allChoices = splittedArr.map((choice) => {
