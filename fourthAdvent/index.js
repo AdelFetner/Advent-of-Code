@@ -25,13 +25,13 @@ const getElves = (sectionID) => {
     const secondElfSections = secondElf.split("-").map((section) => Number(section))
 
     // return elves to use later on for the two parts of the Advent
-    return [firstElf, secondElf, firstElfSections, secondElfSections]
+    return [firstElf, firstElfSections, secondElfSections]
 }
 
 const overlappingSections = []
 
 const sectionIDs = splittedArr.forEach((sectionID) => {
-    const [firstElf, secondElf, firstElfSections, secondElfSections] = getElves(sectionID)
+    const [firstElf, firstElfSections, secondElfSections] = getElves(sectionID)
 
     // functions to make conditionals cleaner and more readable, compares indexes between sectionA and sectionB
     const hasSameTens = (sectionA, sectionB) => sectionA[0] >= sectionB[0]
@@ -44,10 +44,11 @@ const sectionIDs = splittedArr.forEach((sectionID) => {
 
 
 // Part 2
+
 const anyOverlappingSections = []
 
 const anyOverlap = splittedArr.forEach((sectionID) => {
-    const [firstElf, secondElf, firstElfSections, secondElfSections] = getElves(sectionID)
+    const [firstElf, firstElfSections, secondElfSections] = getElves(sectionID)
 
     const hasOverlap = (sectionA, sectionB) => sectionA[0] <= sectionB[1] && sectionA[1] >= sectionB[0]
 
