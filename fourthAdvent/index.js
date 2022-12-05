@@ -49,10 +49,6 @@ const anyOverlappingSections = []
 const anyOverlap = splittedArr.forEach((sectionID) => {
     const [firstElf, secondElf, firstElfSections, secondElfSections] = getElves(sectionID)
 
-    // functions to make conditionals cleaner and more readable, compares indexes between sectionA and sectionB
-    const hasSameTens = (sectionA, sectionB) => sectionA[0] >= sectionB[0]
-    const hasSameUnits = (sectionA, sectionB) => sectionA[1] <= sectionB[1]
-
     const hasOverlap = (sectionA, sectionB) => sectionA[0] <= sectionB[1] && sectionA[1] >= sectionB[0]
 
     // conditonals, if the first elf starts before the second elf and ends after the second elf, or vice versa, push it to the anyOverlappingSections array
