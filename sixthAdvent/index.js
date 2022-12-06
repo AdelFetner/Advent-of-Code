@@ -22,5 +22,3 @@ const howManyChar = (input, scope) => {
             return index + scope
     }
 }
-
-console.log(howManyChar(code, 14))
