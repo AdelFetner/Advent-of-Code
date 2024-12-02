@@ -8,3 +8,8 @@ var rightList = input.Select(x => x.Split("   ")[1]).Select(int.Parse).Order().T
 
 var solution = Enumerable.Range(0, leftList.Count).Select(i => Math.Abs(leftList[i] - rightList[i])).Sum();
 Console.WriteLine(solution);
+
+var secondSolution = leftList.Select(l => l * rightList.Count(r => r == l)).Sum();
+
+Console.WriteLine(secondSolution);
+
